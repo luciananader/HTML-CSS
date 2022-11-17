@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 170, 58);
+            color: white;
+        }
+        header{
+            background-color: white;
+            width: 600px;
+            padding: 10px;
+            color:rgb(255, 170, 58) ;
+            margin: auto;
+            text-align: center;
+        }
+        main{
+            background-color: white;
+            color: rgb(255, 170, 58);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.295);
+        }
+        article{
+            background-color:rgb(255, 170, 58);
+            color: white;
+            margin: 10px;
+        }
+        footer{
+            background-color: white;
+            color:rgb(255, 170, 58) ;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 3px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }    
+            
+        
+        nav{
+            background-color: rgb(255, 170, 58);
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.267);
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 80px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+main > section.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+article > aside.escritor{
+    text-align: right;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    color: rgb(255, 170, 58);
+    padding-right: 10px;
+    padding-top: 0.2px;
+   
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+    
+<header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+
+</header>
+<main>
+    <section class="titulo">
+        <p>Viagens, cultura, e gatronomia</p>
+    </section>
+<section id="Assuntos"> 
+    <article>
+    <h2>Notícias sobre o Mundo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veritatis? Quos maiores minus ratione, iusto quaerat ipsam temporibus, illum rem veniam sit ullam, aliquid voluptatibus quae doloribus quibusdam error voluptas.</p>
+</article>
+</section>
+<section id="Notícias">
+    <article>
+        <h2>Notícia sobre o Brasil</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis sapiente velit suscipit eligendi corrupti. Ipsa eum alias perferendis veniam eligendi magnam ratione dolorum illum odit architecto rem fuga, accusamus minima?</p>
+        <aside class="escritor">
+            <p>Artigo escrito por José da Siva</p>
+        </aside>
+    </article>
+    <article>
+
+    </article>
+</section>
+</main>
+<footer>
+    <p>Desenvolvido pelo Curso em Vídeo</p>
+</footer>
+<div id="bola">
+
+</div>
+</body>
+</html>
