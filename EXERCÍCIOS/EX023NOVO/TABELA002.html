@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body h1{
+            background-color: lightcyan;
+            width: 500px;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td,th{
+            border: 1px solid black ;
+            text-align: center;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49.547.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.789</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.456</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">10.456.457</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">15.654.789</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">15.542.023</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">17.658.254</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">5.654.489</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">10.214.587</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.653.258</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.546.357</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                    <td><strong>217.149.547</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil porro eum possimus praesentium a atque tempore, eveniet unde impedit, dolorum doloremque autem voluptatibus, minus magnam voluptate fugiat ducimus. Nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus debitis rerum unde deleniti. Dolore delectus distinctio harum, consequuntur tenetur molestias asperiores autem dolores reiciendis exercitationem suscipit fuga repellat sequi inventore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, recusandae quo quisquam sint deleniti ducimus reiciendis totam ad similique ipsa neque, eligendi, suscipit minima? Ipsam aliquid beatae eaque accusamus impedit.</p>
+</body>
+</html>
