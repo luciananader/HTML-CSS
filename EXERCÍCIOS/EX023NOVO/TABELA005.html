@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-weight: bold;
+        }
+        tr, th, td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+
+        }
+        col.cnome, col.cidade{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Administradora</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>F</td>
+            <td>65</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Fabiano</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Luciana</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Administradora</td>
+        </tr>
+    </table>
+</body>
+</html>

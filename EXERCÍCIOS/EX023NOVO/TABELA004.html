@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-variant: small-caps;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1> 
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <Th colspan="3" scope="colgroup">Filmes</Th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria dos Santos</td>
+                <td>O gato</td>d
+                <td>E o vento levou</td>d
+                <td>O diabo veste Prada</td>
+            </tr>
+            <tr>
+                <td>Luciana Leal nader</td>
+                <td>Godfather</td>
+                <td>A Bela e a Fera</td>
+                <td>Cinderela</td>
+            </tr>
+            <tr>
+                <td> Debora Aguiar do Mdnte</td>
+                <td>Grease</td>
+                <td>Casablanca</td>
+                <td>Os simpsons</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Gustavo Guanabara</td>
+                <td>Starwars</td>
+                <td>Toystory</td>
+                <td>Dracula</td>
+            </tr>
+            <tr>
+                <td>Fabiano Nader</td>
+                <td>Old boy</td>
+                <td>wall-e</td>
+                <td>Intocáveis</td>
+            </tr>
+            <tr>
+                <td>Mario Leal Nader</td>
+                <td>Gladiador</td>
+                <td>Taxi Driver</td>
+                <td>Big Hero</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
